@@ -1,0 +1,21 @@
+{
+    "coc.preferences.formatOnSaveFiletypes": [
+        "css",
+        "markdown",
+        "javascript",
+        "graphql",
+        "html",
+        "yaml",
+        "python",
+        "java",
+        "json"       
+    ],
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "eslint.enable": true,
+    "snippets.ultisnips.directories": [
+        "UltiSnips",
+        "~/.vim/utils/snips"
+    ],
+    "explorer.icon.enableVimDevicons": true
+}
