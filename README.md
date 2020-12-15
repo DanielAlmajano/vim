@@ -68,13 +68,13 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this linei
 `
 
+4. Install Plugins:
 
-3. Install Plugins:
- Launch` vim `and run `:PluginInstall
- `To install from command line: `vim +PluginInstall +qall
- `
+   Launch `vim` and run `:PluginInstall`
 
-4. These are my Keyboard shortcuts
+   To install from command line: `vim +PluginInstall +qall`
+
+These are my Keyboard shortcuts
 
 | Atajo                  | Acción                                  |
 | ---------------------- | --------------------------------------- |
