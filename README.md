@@ -1,13 +1,12 @@
-Neovim
+![.vim](./neovim.png)
 
-Language
-
-    es Español
-    us English
+***Language***
+- [🇪🇸 Español](./README.es.md)
+- 🇺🇸 English
 
 To use this config, first download some dependencies:
 
-# Vim-plug
+1.  Vim-plug
 `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 `
 
@@ -23,7 +22,7 @@ sudo npm i -g neovim
 sudo pacman -S xsel fzf ripgrep fd the_silver_searcher prettier
 yay -S universal-ctags-git
 
-#Configure Plugins:
+2. Configure Plugins:
 `set nocompatible              " be iMproved, required
 filetype off                  " required
 
@@ -70,13 +69,12 @@ filetype plugin indent on    " required
 `
 
 
-#Install Plugins:
+3. Install Plugins:
  Launch` vim `and run `:PluginInstall
  `To install from command line: `vim +PluginInstall +qall
  `
 
-Now open neovim and execute :PlugInstall. Close neovim, and next time you open it all my configs should be applied. This are some keybingins besides default ones:
-Key 	Action
+4. These are my Keyboard shortcuts
 jk or kj 	Go to normal mode (from insert)
 alt + [hjkl] 	Resize split
 control + [hjkl] 	Navigate splits
