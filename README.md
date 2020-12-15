@@ -75,21 +75,26 @@ filetype plugin indent on    " required
  `
 
 4. These are my Keyboard shortcuts
-jk or kj 	Go to normal mode (from insert)
-alt + [hjkl] 	Resize split
-control + [hjkl] 	Navigate splits
-control + s 	Save
-control + q 	Save and quit
-tab 	Next buffer
-shift + tab 	Previous buffer
-control + b 	Close buffer
-shift + < or > 	Indent one level or remove it (visual)
-shift + k or j 	Move selected line down or up (visual)
 
-Plugin keybindings:
-Key 	Action
-space + f 	Fuzzy search
-space + / 	Comment selected line or block
-space + n 	Toggle NerdTree
-space + p 	Format document with prettier
-shift + k 	Function or class documentation and arg types
+| Atajo                  | Acción                                  |
+| ---------------------- | --------------------------------------- |
+| **jk** o **kj**                | Cambiar a modo normal (desde insertar)  |
+| **alt + [hjkl]**           | Cambiar split de tamaño                 |
+| **control + [hjkl]**       | Navegar splits                          |
+| **control + s**            | Guardar                                 |
+| **control + q**            | Guardar y salir                         |
+| **tab**                    | Siguiente buffer                        |
+| **shift + tab**            | Buffer previo                           |
+| **control + b**            | Cerrar buffer                           |
+| **shift + <** or **>**         | Identar o borrar indentación (visual)   |
+| **shift + k** o **j**          | Mover línea seleccionada abajo o arriba |
+
+***Plugins***:
+
+| Atajo         | Acción                                  |
+| ------------- | --------------------------------------- |
+| **space + f**     | Búsqueda                                |
+| **space + /**     | Comentar la línea o bloque seleccionado |
+| **space + n**     | NerdTree                                |
+| **space + p**     | Formatear documento con prettier        |
+| **shift + k**     | Documentación de la función o clase     |
