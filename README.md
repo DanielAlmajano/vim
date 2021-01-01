@@ -1,4 +1,4 @@
-![.vim](./neovim.png)
+![.vim](./vim.png)
 
 ***Language***
 - [🇪🇸 Español](./README.es.md)
