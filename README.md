@@ -23,8 +23,6 @@ sudo pacman -S xsel fzf ripgrep fd the_silver_searcher prettier
 yay -S universal-ctags-git
 
 2. Configure Plugins:
-3. Configure Plugins:
-
    Put this at the top of your `.vimrc` to use Vundle. Remove plugins you don't need, they are for illustration purposes.
 
    ```vim
